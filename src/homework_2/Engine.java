@@ -1,10 +1,10 @@
 package homework_2;
 
 public class Engine {
+	    int horsepower;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	    public Engine(int horsepower) {
+	        this.horsepower = horsepower;
+	    }
 	}
 
-}
