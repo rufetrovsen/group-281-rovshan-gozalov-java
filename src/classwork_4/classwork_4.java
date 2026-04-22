@@ -86,8 +86,40 @@ public class classwork_4 {
 
         System.out.println("Sum: " + sum);
         System.out.println("Count: " + count);
-    }
 
+        //9
+//        ?
+
+       //11
+        int day =3;
+        if (day == 1 || day == 2 || day==3 || day == 4 || day == 5) {
+        	 System.out.println("den");
+        }else if (day == 6|| day ==7) {
+        	 System.out.println("noc");
+        }else {
+        	 System.out.println("error");
+        }
+
+        //12
+
+        int ag = 67;
+        if(ag <= 0 - 2) {
+        	 System.out.println("mladenec");
+        }else if ( ag <= 3 - 6) {
+        	 System.out.println("skolnik");
+        }else if (ag <= 7 - 10) {
+        	 System.out.println("skolnik jr");
+        }else if (ag <= 11 - 14) {
+        	 System.out.println("podrotok jr");
+        }else if ( ag <=15 - 17) {
+        	 System.out.println("podrostok");
+        }else if (ag <= 18 - 64) {
+        	 System.out.println("bolshoy");
+        }else if (ag >= 65) {
+        	 System.out.println("pojiloy");
+        }else {
+        	 System.out.println("error");
+        }
 }
 
 
