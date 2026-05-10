@@ -18,15 +18,16 @@ public class Car {
         speed = Math.max(speed - kmh, 0);
     }
 
+
     @Override
-    public String toString() {
-        return brand + " " + model + " (" + year + ") → " + speed + " км/ч";
+	public String toString() {
+        return brand + " " + model + " (" + year + ") → " + speed + " km/ph";
     }
 
     public static void main(String[] args) {
         Car car = new Car("MASINKA UCITELA", "SAMIY LICSHIY", 2067);
+        car.accelerate(67);
         car.accelerate(80);
-        car.accelerate(90); 
-        System.out.println(car); 
+        System.out.println(car);
     }
 }

@@ -14,7 +14,9 @@ public class Book {
         totalBooks++;
     }
 
-    public static int getTotalBooks() { return totalBooks; }
+    public static int getTotalBooks() {
+    return totalBooks;
+    }
 
     public boolean isLong() { return pages > 300; }
 
